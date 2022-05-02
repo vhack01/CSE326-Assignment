@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./css/reg_css.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <script src="./javascript/reg_javascript.js"></script>
+        
+</head>
+<body>
+
+    <div class="p_box1 c_box1">
+        <div id="logo-container">
+            <img src="./img/logo.png">
+            <span style="font-family: 'Gotham Rounded Bold';font-size: 53px;postition: revert;position: relative;top: -24px;color: bisque;">Blog</span>
+        </div>
+        <div id="menu-container">
+            <ul>
+                <li><a href="./index.html" target="_self">Home</a></li>
+                <li>Our Story</li>
+                <li>Write</li>
+                <li><a href="./Login.html" target="_self">Sign In</a></li>
+                <li><a href="./login1.html" target="_blank">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="box1">
+       <div>Registration Form</div>
+       <div class="Form_box">
+            <form>
+                <ul class="Form_box_ul">
+                    <li>
+                        <span>Name</span>
+                        <input type="text" placeholder="Enter name" name="name" id="inp1">
+                    </li>
+                    <li>
+                        <span>Mobile No   </span>
+                        <input type="text" placeholder="Enter Mobile Number" name="num" id="inp2">
+                    </li>
+                    <li>
+                        <span>Email</span>
+                        <input type="email" placeholder="Enter email" name="email" id="inp3">
+                    </li>
+                    <li>
+                        <span>Password</span>
+                        <input type="password" placeholder="Enter password" name="pass" id="inp4">
+                    </li>
+                    <li>
+                        <span>Confirm Password</span>
+                        <input type="password" placeholder="Confirm password" name="cpass" id="inp5">
+                    </li>
+                    <li>
+                        <span>Gender</span>
+                        <input type="radio" name="gen" id="g1"><label for="g1">Male</label>
+                        <input type="radio" name="gen" id="g2"><label for="g2">Female</label>
+                        <input type="radio" name="gen" id="g3"><label for="g3">Others</label>
+                    </li>
+                    <li>
+                        <span>Language</span>
+                        <input type="checkbox" name="lan1" class="chk1"><span>Hindi</span>
+                        <input type="checkbox" name="lan2" class="chk1"><span>English</span>
+                        <input type="checkbox" name="lan3" class="chk1"><span>Punjabi</span>
+                    </li>
+                    <li id="country">
+                        <span>Country</span>
+                        <select>
+                            <option selected></option>
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>Russia</option>
+                            <option>Dubai</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input type="button" value = "Register" onclick="validate()" id="sb_btn">
+                    </li>
+
+                </ul>
+            </form>
+       </div>
+    </div>
+
+
+    <div class="footer">
+        <ul>
+            <li id="foot1">
+                <div>SIGN IN</div>
+            </li>
+            <li id="foot2">
+                <ul>
+                    <li><img src="./img/s1.png"></li>
+                    <li><img src="./img/s2.png"></li>
+                    <li><img src="./img/s3.png"></li>
+                </ul>
+            </li>
+            <li id="foot3">&copy;2021-22 Vishwas Kumar</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
